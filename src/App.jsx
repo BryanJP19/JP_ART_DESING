@@ -4,7 +4,7 @@ import "./App.css";
 const PHONE = "829-637-5424";
 const WA_NUMBER = "18296375424";
 const EMAIL = "pena57481@gmail.com";
-const INSTAGRAM = "JORDANYART";
+const INSTAGRAM = "JORDANYART_";
 const wa = (text) => `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(text)}`;
 
 const NAV = [
