@@ -48,14 +48,14 @@ const OFFERS = [
   {
     title: "2 GORRAS BORDADAS POR 600 PESOS",
     image: "./ofertas/gorras.jpeg",
-    alt: "Gorras bordadas personalizadas",
+    alt: "Gorras bordadas personalizadas en Santo Domingo, 2 por 600 pesos",
     details: ["Personaliza tus gorras a tu estilo", "Alta calidad", "Diseños personalizados", "Ideal para regalos"],
     msg: "Hola, quiero pedir la oferta: 2 gorras bordadas por 600 pesos.",
   },
   {
     title: "2 TERMOS POR 2,000 PESOS",
     image: "./ofertas/termos.jpeg",
-    alt: "Termos personalizados",
+    alt: "Termos personalizados con diseño propio en Santo Domingo, 2 por 2,000 pesos",
     details: ["Mantiene la temperatura", "Alta calidad", "Diseños personalizados", "Ideal para regalos"],
     msg: "Hola, quiero pedir la oferta: 2 termos por 2,000 pesos.",
   },
@@ -78,7 +78,7 @@ const sameDay = (a, b) => a.getFullYear() === b.getFullYear() && a.getMonth() ==
 function Logo({ onClick }) {
   return (
     <a href="#inicio" className="logo" onClick={onClick} aria-label="JP ART Desing">
-      <img className="logo-mark" src="/logo-jp.png" alt="" />
+      <img className="logo-mark" src="/logo-jp.png" alt="Logo de JP ART Desing, diseño gráfico y sublimación en Santo Domingo" />
       <span className="logo-text">JP DESING AND ART</span>
     </a>
   );

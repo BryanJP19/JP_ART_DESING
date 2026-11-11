@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://https://jp-art-desing.vercel.app/sitemap.xml
