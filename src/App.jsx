@@ -77,8 +77,8 @@ const sameDay = (a, b) => a.getFullYear() === b.getFullYear() && a.getMonth() ==
 
 function Logo({ onClick }) {
   return (
-    <a href="#inicio" className="logo" onClick={onClick} aria-label="JP ART Desing">
-      <img className="logo-mark" src="/logo-jp.png" alt="Logo de JP ART Desing, diseño gráfico y sublimación en Santo Domingo" />
+    <a href="#inicio" className="logo" onClick={onClick} aria-label="JP Desing and ART">
+      <img className="logo-mark" src="/logo-jp.png" alt="Logo de JP Desing and ART, diseño gráfico y sublimación en Santo Domingo" />
       <span className="logo-text">JP DESING AND ART</span>
     </a>
   );
