@@ -293,7 +293,7 @@ function Footer() {
   return (
     <footer className="footer">
       <Logo />
-      <p>© {new Date().getFullYear()} Art Desing Discovery. Todos los derechos reservados.</p>
+      <p>© {new Date().getFullYear()} JP DESING AND ART. Todos los derechos reservados.</p>
     </footer>
   );
 }
