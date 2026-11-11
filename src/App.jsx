@@ -79,7 +79,7 @@ function Logo({ onClick }) {
   return (
     <a href="#inicio" className="logo" onClick={onClick} aria-label="JP ART Desing">
       <img className="logo-mark" src="/logo-jp.png" alt="" />
-      <span className="logo-text">JP ART DESING</span>
+      <span className="logo-text">JP DESING AND ART</span>
     </a>
   );
 }
